@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_browser">
+
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.tsertsenyuk.mireaproject.ui.browser.BrowserFragment"
+        android:label="Browser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.tsertsenyuk.mireaproject.ui.calculator.CalculatorFragment"
+        android:label="Calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="ru.mirea.tsertsenyuk.mireaproject.ui.music.MusicFragment"
+        android:label="Music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.tsertsenyuk.mireaproject.ui.camera.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_record"
+        android:name="ru.mirea.tsertsenyuk.mireaproject.ui.record.RecordFragment"
+        android:label="Record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.tsertsenyuk.mireaproject.ui.sensor.SensorFragment"
+        android:label="Sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="ru.mirea.tsertsenyuk.mireaproject.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+
+</navigation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@drawable/browser_icon50"
+            android:title="Browser" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculator_icon50"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/music_icon50"
+            android:title="Music" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/camera_icon50"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_record"
+            android:icon="@drawable/record_icon50"
+            android:title="Record" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/sensor_icon50"
+            android:title="Sensor" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map_icon50"
+            android:title="Map" />
+    </group>
+
+</menu>
